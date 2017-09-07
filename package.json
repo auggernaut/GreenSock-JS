@@ -6,27 +6,8 @@
     "homepage": "https://greensock.com/gsap/",
 	"main": "./src/uncompressed/TweenMax.js",
     "browser": {
-        "./src/uncompressed/TimelineLite.js": "./TimelineLite.js",
-        "./src/uncompressed/TimelineMax.js": "./TimelineMax.js",
-        "./src/uncompressed/TweenLite.js": "./TweenLite.js",
-        "./src/uncompressed/TweenMax.js": "./TweenMax.js",
-        "./src/uncompressed/easing/EasePack.js": "./EasePack.js",
-        "./src/uncompressed/jquery.gsap.js": "./jquery.gsap.js",
-        "./src/uncompressed/plugins/AttrPlugin.js": "./AttrPlugin.js",
-        "./src/uncompressed/plugins/BezierPlugin.js": "./BezierPlugin.js",
-        "./src/uncompressed/plugins/CSSPlugin.js": "./CSSPlugin.js",
-        "./src/uncompressed/plugins/CSSRulePlugin.js": "./CSSRulePlugin.js",
-        "./src/uncompressed/plugins/ColorPropsPlugin.js": "./ColorPropsPlugin.js",
-        "./src/uncompressed/plugins/DirectionalRotationPlugin.js": "./DirectionalRotationPlugin.js",
-        "./src/uncompressed/plugins/EaselPlugin.js": "./EaselPlugin.js",
-        "./src/uncompressed/plugins/EndArrayPlugin.js": "./EndArrayPlugin.js",
-        "./src/uncompressed/plugins/ModifiersPlugin.js": "./ModifiersPlugin.js",
-        "./src/uncompressed/plugins/PixiPlugin.js": "./PixiPlugin.js",
-        "./src/uncompressed/plugins/RaphaelPlugin.js": "./RaphaelPlugin.js",
-        "./src/uncompressed/plugins/RoundPropsPlugin.js": "./RoundPropsPlugin.js",
-        "./src/uncompressed/plugins/ScrollToPlugin.js": "./ScrollToPlugin.js",
-        "./src/uncompressed/plugins/TextPlugin.js": "./TextPlugin.js",
-        "./src/uncompressed/utils/Draggable.js": "./Draggable.js"
+      "./src/minified/TweenLite.js": "./TweenLite.js",
+      "./src/minified/easing/EasePack.js": "./EasePack.js",
     },
     "keywords": [
        "animation",
@@ -53,8 +34,8 @@
        {
            "name": "Jack Doyle",
 		   "email": "jack@greensock.com",
-           "web": "https://greensock.com" 
-       } 
+           "web": "https://greensock.com"
+       }
    ],
   "license": "Standard 'no charge' license: https://greensock.com/standard-license. Club GreenSock members get more: https://greensock.com/licensing/. Why GreenSock doesn't employ an MIT license: https://greensock.com/why-license/",
    "bugs": {
@@ -62,7 +43,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "https://github.com/greensock/GreenSock-JS" 
-   } 
+      "url": "https://github.com/greensock/GreenSock-JS"
+   }
 
 }
